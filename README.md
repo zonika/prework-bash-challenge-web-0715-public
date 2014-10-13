@@ -15,9 +15,9 @@ We're going to review what we just learned in the previous lesson on bash.
 
 3. Fill in the blanks (wherever you see '__') with the your answers.
 
-4. You can check you answers by running `rspec` from the directory of the project you're in.
+4. When you've finished answering all of the questions, run `rspec` to make sure you're seeing all green.
 
-4. When you're finished (all of the tests pass and you're seeing green in your terminal):
+5. When you're finished (all of the tests pass and you're seeing green in your terminal):
 * Stage the changes you made: `git add .`
 * Commit those changes with a message: `git commit -m "all done"`
 * Push those changed up to your fork: `git push origin master`
