@@ -8,4 +8,8 @@ RSpec.configure do |config|
     @answers = decoded_answers.split(", ")
   end
 
+  def is_correct(student_answer, index)
+    @answers[index] == student_answer ? true : false
+  end
+
 end
