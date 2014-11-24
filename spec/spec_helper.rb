@@ -1,5 +1,4 @@
 require 'base64'
-require 'pry'
 
 RSpec.configure do |config|
   encoded_answers = "cHdkLCBjZCAuLiwgbHMsIHRvdWNoIHRleHQuaHRtbCwgbHMgLWxhaCwgb3Bl\nbiwgY2QgfiwgZWNobyAkUEFUSCwgbWtkaXIgY29kZQ==\n"
