@@ -1,7 +1,7 @@
 require 'base64'
 
 RSpec.configure do |config|
-  encoded_answers = "cHdkLCBjZCAuLiwgbHMsIHRvdWNoIHRleHQuaHRtbCwgbHMgLWxhaCwgb3Bl\nbiwgY2QgfiwgZWNobyAkUEFUSCwgbWtkaXIgY29kZQ==\n"
+  encoded_answers = "cHdkLCBjZCAuLiwgbHMsIGNkIH4sIHRvdWNoIHRleHQuaHRtbCwgbHMgLWxh\naCwgb3BlbiwgZWNobyAkUEFUSCwgbWtkaXIgY29kZQ==\n"
   
   decoded_answers = Base64.decode64(encoded_answers)
 
