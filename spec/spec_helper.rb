@@ -16,16 +16,3 @@ end
 def __
   raise 'Replace the underscore with your answer in "quotes"'
 end
-
-
-# {
-#  "1"=>"pwd",
-#  "2"=>"cd ..",
-#  "3"=>"ls",
-#  "4"=>["cd ~", "cd"],
-#  "5"=>"touch text.html",
-#  "6"=>"ls -lah",
-#  "7"=>"open readme.md",
-#  "8"=>"echo $PATH",
-#  "9"=>"mkdir code"
-# }
