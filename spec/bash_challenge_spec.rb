@@ -17,7 +17,7 @@ describe "Bash Challenge" do
 
     it 'brings us back to the home directory' do 
       your_answer = __
-      expect(your_answer).to eq(answer_4)
+      expect(your_answer).to satisfy {|s| answer_4.include?(s.downcase) }
     end
   end
 
@@ -27,12 +27,25 @@ describe "Bash Challenge" do
       expect(your_answer).to eq(answer_5)
     end
 
-    it 'lists all files with their information in a human readable format' do 
+    it "write the command that results in seven columns for the contents of a directory:
+      1) permissions
+      2) number of hard links
+      3) owner
+      4) group owning
+      5) file size
+      6) date and time of last modification
+      7) file name
+
+      For instance:
+      -rw-r--r--   1 janedoe  staff    52B Jan  5 12:42 .rspec
+      -rw-r--r--   1 janedoe  staff   1.2K Jan  5 12:42 README.md
+      drwxr-xr-x   4 janedoe  staff   136B Jan  5 12:42 spec" do
+
       your_answer = __
       expect(your_answer).to eq(answer_6)
     end
 
-    it 'opens a file in its default format' do 
+    it 'opens a file called "readme.md" in its default format' do 
       your_answer = __
       expect(your_answer).to eq(answer_7)
     end
