@@ -13,3 +13,7 @@ RSpec.configure do |config|
     end
   end
 end
+
+def __
+  raise 'Replace the underscore with your answer in "quotes"'
+end

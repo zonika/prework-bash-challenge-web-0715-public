@@ -1,7 +1,7 @@
 describe "Bash Challenge" do
   context 'Navigation' do
     it 'determines what the current working directory is' do
-      your_answer = __ # replace the __ with your answers in "quotes"
+      your_answer = __
       expect(your_answer).to eq(answer_1) 
     end
 
