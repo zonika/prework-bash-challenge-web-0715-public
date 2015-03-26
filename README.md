@@ -23,7 +23,7 @@ Replace the __ with your answer in quotes, like this `"pwd"`.
 
 The test will be looking at your answer and comparing it to the correct answer.
 
-4. When you've finished answering all of the questions, run `ironboard` (which will be running the tests; remember this is in leiu of running `rspec`) and make sure you're seeing all green.
+4. When you've finished answering all of the questions, run `learn` (which will be running the tests; remember this is in leiu of running `rspec`) and make sure you're seeing all green.
 
 5. When you're finished (all of the tests pass and you're seeing green in your terminal):
 * Stage the changes you made: `git add .`
